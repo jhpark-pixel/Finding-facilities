@@ -73,11 +73,11 @@ const data = {
         ],
     },
     {
-        question: "입주 비용과 월 생활비는 어느 정도로 생각하시나요?",
+        question: "원하시는 보증금/월 생활비 금액대는 어느 정도인가요?",
         answers: [
-          { text: "합리적인 수준의 비용", type: "urban" },
-          { text: "자연 친화적인 삶에 투자할 의향이 있음", type: "nature" },
-          { text: "비용에 구애받지 않고 최고의 서비스를 원함", type: "luxury" },
+          { text: "보증금 1~2억, 월 200~300만원", type: "urban" },
+          { text: "보증금 3~5억, 월 300~500만원", type: "nature" },
+          { text: "보증금 6억 이상, 월 500만원 이상", type: "luxury" },
         ],
     },
   ],
