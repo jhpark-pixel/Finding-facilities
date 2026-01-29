@@ -94,13 +94,13 @@ const data = {
       {
         name: "VL라우어",
         description: "뛰어난 접근성과 편리한 생활 인프라를 자랑하는 곳입니다. 주변에 대형 병원, 쇼핑몰, 문화 시설이 밀집해 있어 활동적인 부모님께 안성맞춤입니다. 다양한 동호회와 커뮤니티 활동을 통해 다른 입주민들과 즐거운 교류를 할 수 있습니다.",
-        image: "https://i.ibb.co/j9RZpmCg/1.png",
+        image: "https://i.postimg.cc/bNXN4BBW/oegwan-1(daepyo).png",
         link: "https://www.caredoc.kr/facility/vl%EB%9D%BC%EC%9A%B0%EC%96%B4%EC%98%A4%EC%8B%9C%EB%A6%AC%EC%95%84-SVT-07976ff9de?facilityType=SILVER_TOWN&isRouter=true"
       },
       {
         name: "위례 심포니아",
         description: "뛰어난 접근성과 편리한 생활 인프라를 자랑하는 곳입니다. 주변에 대형 병원, 쇼핑몰, 문화 시설이 밀집해 있어 활동적인 부모님께 안성맞춤입니다. 다양한 동호회와 커뮤니티 활동을 통해 다른 입주민들과 즐거운 교류를 할 수 있습니다.",
-        image: "https://i.ibb.co/kgpF2JPP/1.jpg",
+        image: "https://i.postimg.cc/0NN8pRzZ/oegwan-1(daepyo).jpg",
         link: "https://www.caredoc.kr/facility/%EC%9C%84%EB%A1%80%EC%8B%AC%ED%8F%AC%EB%8B%88%EC%95%84-SVT-144e2249d1?facilityType=SILVER_TOWN&isRouter=true"
       }
     ],
@@ -108,13 +108,13 @@ const data = {
         {
             name: "더시그넘하우스(강남)",
             description: "아름다운 자연에 둘러싸여 맑은 공기와 평화로운 생활을 누릴 수 있는 곳입니다. 텃밭을 가꾸고, 산책로를 거닐며 전원생활의 여유를 만끽할 수 있습니다. 자연 친화적인 식단과 건강 관리 프로그램으로 건강한 노후를 보낼 수 있습니다.",
-            image: "https://i.ibb.co/PGJTJVRT/1.png",
+            image: "https://i.postimg.cc/nhJr9PKS/oegwan-1(daepyo).png",
             link: "https://www.caredoc.kr/facility/%EB%8D%94%EC%8B%9C%EA%B7%B8%EB%84%98%ED%95%98%EC%9A%B0%EC%8A%A4%EA%B0%95%EB%82%A8-SVT-1553710a93?facilityType=SILVER_TOWN&isRouter=true"
         },
         {
             name: "노블파인스",
             description: "아름다운 자연에 둘러싸여 맑은 공기와 평화로운 생활을 누릴 수 있는 곳입니다. 텃밭을 가꾸고, 산책로를 거닐며 전원생활의 여유를 만끽할 수 있습니다. 자연 친화적인 식단과 건강 관리 프로그램으로 건강한 노후를 보낼 수 있습니다.",
-            image: "https://i.ibb.co/0pf7xc6Y/1.png",
+            image: "https://i.postimg.cc/mk1fmT4m/oegwan-1(daepyo).png",
             link: "https://www.caredoc.kr/facility/%EB%85%B8%EB%B8%94%ED%8C%8C%EC%9D%B8%EC%8A%A4-SVT-81f663e9a3?facilityType=SILVER_TOWN&isRouter=true"
         }
     ],
@@ -122,13 +122,13 @@ const data = {
         {
             name: "마곡 VL르웨스트",
             description: "호텔급의 시설과 서비스를 제공하는 최고급 실버타운입니다. 넓고 고급스러운 주거 공간, 전담 매니저의 케어, 스파, 골프 등 다양한 프리미엄 서비스를 누릴 수 있습니다. 프라이빗한 생활을 보장하며 가장 편안하고 품격 있는 노후를 선사합니다.",
-            image: "https://i.ibb.co/G3BC9w31/1.jpg",
+            image: "https://i.postimg.cc/bJNq9Xdk/oegwan-1(daepyo).jpg",
             link: "https://www.caredoc.kr/facility/vl%EB%A5%B4%EC%9B%A8%EC%8A%A4%ED%8A%B8%EB%A7%88%EA%B3%A1-SVT-fad8d13d5a?facilityType=SILVER_TOWN&isRouter=true"
         },
         {
             name: "더클래식500",
             description: "호텔급의 시설과 서비스를 제공하는 최고급 실버타운입니다. 넓고 고급스러운 주거 공간, 전담 매니저의 케어, 스파, 골프 등 다양한 프리미엄 서비스를 누릴 수 있습니다. 프라이빗한 생활을 보장하며 가장 편안하고 품격 있는 노후를 선사합니다.",
-            image: "https://i.ibb.co/bgcPbcc0/3.png",
+            image: "https://i.postimg.cc/nrSrDFkQ/oegwan-3.png",
             link: "https://www.caredoc.kr/facility/%EB%8D%94%ED%81%B4%EB%9E%98%EC%8B%9D500-SVT-a1eccc58dc?facilityType=SILVER_TOWN&isRouter=true"
         }
     ]
