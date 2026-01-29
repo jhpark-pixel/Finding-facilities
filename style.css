@@ -35,7 +35,7 @@ body {
 
 .container {
   width: 90%;
-  max-width: 600px;
+  max-width: 800px;
   text-align: center;
   padding: 20px;
   background-color: var(--container-bg);
@@ -155,28 +155,46 @@ body.dark-mode .option-btn.selected {
     border-color: var(--primary-color);
 }
 
-#result-screen h2 {
-  font-size: 2em;
-  color: var(--primary-color);
-  margin-bottom: 20px;
+#result-screen h3 {
+    font-size: 2em;
+    color: var(--primary-color);
+    margin-bottom: 20px;
 }
 
 #result {
-  background-color: var(--secondary-color);
-  padding: 20px;
-  border-radius: var(--border-radius);
-  margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
 }
 
-#result h3 {
-    margin-top: 0;
-    font-size: 1.5em;
-    color: var(--primary-color);
+.result-item {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    width: 45%;
+    box-sizing: border-box;
+}
+
+.result-item a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .result-image {
   width: 100%;
-  max-width: 400px;
   border-radius: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+.result-item h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+    color: var(--primary-color);
+}
+
+@media (max-width: 600px) {
+    .result-item {
+        width: 100%;
+    }
 }
