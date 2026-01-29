@@ -80,22 +80,33 @@ const data = {
           { text: "보증금 6억 이상, 월 500만원 이상", type: "luxury" },
         ],
     },
+    {
+        question: "희망하는 지역은 어디인가요?",
+        answers: [
+          { text: "서울", type: "urban" },
+          { text: "경기도", type: "nature" },
+          { text: "그 외", type: "luxury" },
+        ],
+    },
   ],
   results: {
     urban: {
       name: "도심 속 활기찬 라이프, '메트로폴리탄 실버타운'",
       description:
         "뛰어난 접근성과 편리한 생활 인프라를 자랑하는 곳입니다. 주변에 대형 병원, 쇼핑몰, 문화 시설이 밀집해 있어 활동적인 부모님께 안성맞춤입니다. 다양한 동호회와 커뮤니티 활동을 통해 다른 입주민들과 즐거운 교류를 할 수 있습니다.",
+      image: "https://storage.googleapis.com/production-assets/urban.jpg",
     },
     nature: {
       name: "자연과 함께하는 건강한 삶, '그린밸리 실버타운'",
       description:
         "아름다운 자연에 둘러싸여 맑은 공기와 평화로운 생활을 누릴 수 있는 곳입니다. 텃밭을 가꾸고, 산책로를 거닐며 전원생활의 여유를 만끽할 수 있습니다. 자연 친화적인 식단과 건강 관리 프로그램으로 건강한 노후를 보낼 수 있습니다.",
+      image: "https://storage.googleapis.com/production-assets/nature.jpg",
     },
     luxury: {
       name: "최고급 서비스와 편안함, '더 포레스트 프리미엄'",
       description:
         "호텔급의 시설과 서비스를 제공하는 최고급 실버타운입니다. 넓고 고급스러운 주거 공간, 전담 매니저의 케어, 스파, 골프 등 다양한 프리미엄 서비스를 누릴 수 있습니다. 프라이빗한 생활을 보장하며 가장 편안하고 품격 있는 노후를 선사합니다.",
+      image: "https://storage.googleapis.com/production-assets/luxury.jpg",
     },
   },
 };
@@ -108,6 +119,8 @@ const questionEl = document.getElementById('question');
 const optionsEl = document.getElementById('options');
 const progressBar = document.getElementById('progress-bar');
 const resultEl = document.getElementById('result');
+const darkModeToggle = document.getElementById('dark-mode-toggle');
+const restartBtn = document.getElementById('restart-btn');
 
 let currentQuestionIndex = 0;
 const scores = {
@@ -117,7 +130,12 @@ const scores = {
 };
 
 function startQuiz() {
+  currentQuestionIndex = 0;
+  scores.urban = 0;
+  scores.nature = 0;
+  scores.luxury = 0;
   startScreen.classList.add('hidden');
+  resultScreen.classList.add('hidden');
   questionScreen.classList.remove('hidden');
   showQuestion();
 }
@@ -167,9 +185,38 @@ function showResult() {
 
   const result = data.results[resultType];
   resultEl.innerHTML = `
+    <img src="${result.image}" alt="${result.name}" class="result-image">
     <h3>${result.name}</h3>
     <p>${result.description}</p>
   `;
 }
 
+function toggleDarkMode() {
+  document.body.classList.toggle('dark-mode');
+  if (document.body.classList.contains('dark-mode')) {
+    darkModeToggle.textContent = '☀️';
+    localStorage.setItem('theme', 'dark');
+  } else {
+    darkModeToggle.textContent = '🌙';
+    localStorage.setItem('theme', 'light');
+  }
+}
+
+function loadTheme() {
+  const theme = localStorage.getItem('theme');
+  if (theme === 'dark') {
+    document.body.classList.add('dark-mode');
+    darkModeToggle.textContent = '☀️';
+  } else {
+    darkModeToggle.textContent = '🌙';
+  }
+}
+
 startBtn.addEventListener('click', startQuiz);
+restartBtn.addEventListener('click', () => {
+    resultScreen.classList.add('hidden');
+    startScreen.classList.remove('hidden');
+});
+darkModeToggle.addEventListener('click', toggleDarkMode);
+
+loadTheme();

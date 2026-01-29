@@ -5,7 +5,18 @@
   --secondary-color: #f2f2f2;
   --text-color: #333;
   --background-color: #fff;
+  --container-bg: rgba(255, 255, 255, 0.9);
   --border-radius: 8px;
+  --shadow-color: rgba(0,0,0,0.1);
+}
+
+body.dark-mode {
+  --primary-color: #58a6ff;
+  --secondary-color: #2d333b;
+  --text-color: #adbac7;
+  --background-color: #22272e;
+  --container-bg: rgba(45, 51, 59, 0.9);
+  --shadow-color: rgba(0,0,0,0.4);
 }
 
 body {
@@ -15,8 +26,11 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: var(--background-color);
+  background-image: url('https://storage.googleapis.com/production-assets/background.jpg');
+  background-size: cover;
+  background-position: center;
   color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .container {
@@ -24,9 +38,25 @@ body {
   max-width: 600px;
   text-align: center;
   padding: 20px;
-  background-color: #fff;
+  background-color: var(--container-bg);
   border-radius: var(--border-radius);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px var(--shadow-color);
+  position: relative;
+}
+
+.header {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+#dark-mode-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--text-color);
 }
 
 #start-screen h1 {
@@ -40,7 +70,7 @@ body {
     margin-bottom: 30px;
 }
 
-#start-btn, #inquiry-btn {
+#start-btn, #inquiry-btn, #restart-btn {
   background-color: var(--primary-color);
   color: white;
   border: none;
@@ -49,10 +79,20 @@ body {
   border-radius: var(--border-radius);
   cursor: pointer;
   transition: background-color 0.3s;
+  width: 100%;
 }
 
-#start-btn:hover, #inquiry-btn:hover {
+#start-btn:hover, #inquiry-btn:hover, #restart-btn:hover {
   background-color: #357abd;
+}
+
+#restart-btn {
+    background-color: #6c757d;
+    margin-top: 10px;
+}
+
+#restart-btn:hover {
+    background-color: #5a6268;
 }
 
 .hidden {
@@ -94,15 +134,25 @@ body {
   border-radius: var(--border-radius);
   cursor: pointer;
   transition: background-color 0.3s, border-color 0.3s;
+  color: var(--text-color);
 }
 
 .option-btn:hover {
   background-color: #e0e0e0;
 }
 
+body.dark-mode .option-btn:hover {
+    background-color: #3f4650;
+}
+
 .option-btn.selected {
   background-color: #d1e7ff;
   border-color: var(--primary-color);
+}
+
+body.dark-mode .option-btn.selected {
+    background-color: #357abd;
+    border-color: var(--primary-color);
 }
 
 #result-screen h2 {
@@ -121,8 +171,12 @@ body {
 #result h3 {
     margin-top: 0;
     font-size: 1.5em;
+    color: var(--primary-color);
 }
 
-#inquiry-btn {
-    width: 100%;
+.result-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
