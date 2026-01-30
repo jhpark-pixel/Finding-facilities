@@ -1,44 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>나(혹은 부모님)에게 맞는 실버타운 찾기</title>
-  <link href='/style.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="header">
     <button id="dark-mode-toggle">🌙</button>
   </div>
+
   <div class="container">
     <div id="start-screen">
       <h1>나(혹은 부모님)에게 맞는 실버타운 찾기</h1>
-      <p>11가지 질문에 답하고 부모님께 꼭 맞는 실버타운을 찾아보세요!</p>
+      <p>몇 가지 질문에 답하고 최적의 실버타운을 추천받으세요.</p>
       <button id="start-btn">시작하기</button>
+      <button id="view-all-btn">전체 시설 보기</button>
     </div>
+
     <div id="question-screen" class="hidden">
       <div id="progress-bar-container">
         <div id="progress-bar"></div>
       </div>
       <h2 id="question"></h2>
-      <div id="options" class="options-container"></div>
+      <div id="options" class="options-container">
+      </div>
     </div>
+
     <div id="result-screen" class="hidden">
-      <h2>당신에게 추천하는 실버타운은...</h2>
-      <div id="result"></div>
-      <p>사진을 클릭하면 더 자세한 정보를 볼 수 있습니다.</p>
-      <a href="https://forms.gle/TbAmnDDLvvsm1FKK8" target="_blank">
-        <button id="inquiry-btn">입주 문의하기</button>
-      </a>
-      <button id="view-all-btn">전체시설보기</button>
-      <button id="restart-btn">처음으로</button>
-    </div>
-    <div id="all-facilities-screen" class="hidden">
-      <h2>전체 시설 리스트</h2>
-      <div id="all-facilities-list" class="results-grid"></div>
-      <button id="back-to-result-btn">뒤로가기</button>
+      <div id="result">
+      </div>
+      <button id="restart-btn">다시하기</button>
     </div>
   </div>
-  <script defer type="text/javascript" src="/main.js"></script>
+
+  <div id="all-facilities-screen" class="hidden">
+    <div id="all-facilities-list"></div>
+    <button id="back-to-result-btn">뒤로가기</button>
+  </div>
+
+  <script src="main.js"></script>
 </body>
 </html>
