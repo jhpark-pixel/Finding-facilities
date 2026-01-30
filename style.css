@@ -26,7 +26,6 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-image: url('https://storage.googleapis.com/production-assets/background.jpg');
   background-size: cover;
   background-position: center;
   color: var(--text-color);
