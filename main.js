@@ -112,6 +112,15 @@ const data = {
     },
     {
         type: "scoring",
+        question: "선호하는 식사 스타일은 무엇인가요?",
+        answers: [
+          { text: "다양한 종류의 맛집을 즐기고 싶음", score: "urban" },
+          { text: "직접 기른 유기농 식단", score: "nature" },
+          { text: "호텔급의 고품격 식사", score: "luxury" },
+        ],
+    },
+    {
+        type: "scoring",
         question: "가족들이 방문하기에 얼마나 편리해야 할까요?",
         answers: [
           { text: "대중교통으로 쉽게 올 수 있는 곳", score: "urban" },
