@@ -74,3 +74,105 @@ You're about to initialize a Firebase project in this directory:
 [error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
 [debug] [2026-01-29T13:20:32.930Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
 [debug] [2026-01-29T13:20:32.930Z] > authorizing via signed-in user (junha0604@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-01-30T04:49:11.231Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-01-30T04:49:11.235Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-01-30T04:49:17.957Z] Running auto auth
+[debug] [2026-01-30T04:49:17.958Z] Running auto auth
+[debug] [2026-01-30T04:49:17.994Z] No OAuth tokens found
+[debug] [2026-01-30T04:49:17.997Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/finding-facilities-33939-fe052/billingInfo [none]
+[debug] [2026-01-30T04:49:18.064Z] No OAuth tokens found
+[debug] [2026-01-30T04:49:18.065Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/finding-facilities-33939-fe052/billingInfo [none]
+[debug] [2026-01-30T04:49:18.305Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/finding-facilities-33939-fe052/billingInfo 200
+[debug] [2026-01-30T04:49:18.305Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/finding-facilities-33939-fe052/billingInfo {"name":"projects/finding-facilities-33939-fe052/billingInfo","projectId":"finding-facilities-33939-fe052","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-30T04:49:18.324Z] No OAuth tokens found
+[debug] [2026-01-30T04:49:18.325Z] No OAuth tokens found
+[debug] [2026-01-30T04:49:18.326Z] No OAuth tokens found
+[debug] [2026-01-30T04:49:18.346Z] No OAuth tokens found
+[debug] [2026-01-30T04:49:18.347Z] No OAuth tokens found
+[debug] [2026-01-30T04:49:18.347Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firestore.googleapis.com [none]
+[debug] [2026-01-30T04:49:18.348Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firestore.googleapis.com  x-goog-user-project=finding-facilities-33939-fe052
+[debug] [2026-01-30T04:49:18.350Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-01-30T04:49:18.350Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebasedataconnect.googleapis.com  x-goog-user-project=finding-facilities-33939-fe052
+[debug] [2026-01-30T04:49:18.352Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-01-30T04:49:18.352Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/cloudfunctions.googleapis.com  x-goog-user-project=finding-facilities-33939-fe052
+[debug] [2026-01-30T04:49:18.355Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-01-30T04:49:18.356Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebaseapphosting.googleapis.com  x-goog-user-project=finding-facilities-33939-fe052
+[debug] [2026-01-30T04:49:18.358Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebaseio.com [none]
+[debug] [2026-01-30T04:49:18.358Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebaseio.com  x-goog-user-project=finding-facilities-33939-fe052
+[debug] [2026-01-30T04:49:18.411Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/finding-facilities-33939-fe052/billingInfo 200
+[debug] [2026-01-30T04:49:18.411Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/finding-facilities-33939-fe052/billingInfo {"name":"projects/finding-facilities-33939-fe052/billingInfo","projectId":"finding-facilities-33939-fe052","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-30T04:49:18.413Z] No OAuth tokens found
+[debug] [2026-01-30T04:49:18.413Z] No OAuth tokens found
+[debug] [2026-01-30T04:49:18.414Z] No OAuth tokens found
+[debug] [2026-01-30T04:49:18.425Z] No OAuth tokens found
+[debug] [2026-01-30T04:49:18.426Z] No OAuth tokens found
+[debug] [2026-01-30T04:49:18.426Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firestore.googleapis.com [none]
+[debug] [2026-01-30T04:49:18.426Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firestore.googleapis.com  x-goog-user-project=finding-facilities-33939-fe052
+[debug] [2026-01-30T04:49:18.429Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-01-30T04:49:18.429Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebasedataconnect.googleapis.com  x-goog-user-project=finding-facilities-33939-fe052
+[debug] [2026-01-30T04:49:18.432Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-01-30T04:49:18.432Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/cloudfunctions.googleapis.com  x-goog-user-project=finding-facilities-33939-fe052
+[debug] [2026-01-30T04:49:18.436Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-01-30T04:49:18.437Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebaseapphosting.googleapis.com  x-goog-user-project=finding-facilities-33939-fe052
+[debug] [2026-01-30T04:49:18.440Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebaseio.com [none]
+[debug] [2026-01-30T04:49:18.440Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebaseio.com  x-goog-user-project=finding-facilities-33939-fe052
+[debug] [2026-01-30T04:49:19.391Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebaseio.com 403
+[debug] [2026-01-30T04:49:19.391Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebaseio.com [omitted]
+[debug] [2026-01-30T04:49:19.424Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-01-30T04:49:19.424Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-01-30T04:49:19.440Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firestore.googleapis.com 200
+[debug] [2026-01-30T04:49:19.440Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firestore.googleapis.com [omitted]
+[debug] [2026-01-30T04:49:19.442Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/cloudfunctions.googleapis.com 200
+[debug] [2026-01-30T04:49:19.442Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-01-30T04:49:19.460Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebaseio.com 403
+[debug] [2026-01-30T04:49:19.460Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebaseio.com [omitted]
+[debug] [2026-01-30T04:49:19.478Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-01-30T04:49:19.478Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebaseapphosting.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-01-30T04:49:19.483Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-01-30T04:49:19.484Z] > authorizing via signed-in user (junha0604@gmail.com)
+[debug] [2026-01-30T04:49:19.484Z] No OAuth tokens found
+[debug] [2026-01-30T04:49:19.484Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/finding-facilities-33939-fe052/billingInfo [none]
+[debug] [2026-01-30T04:49:19.501Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-01-30T04:49:19.501Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-01-30T04:49:19.504Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-01-30T04:49:19.505Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-01-30T04:49:19.515Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/cloudfunctions.googleapis.com 200
+[debug] [2026-01-30T04:49:19.515Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-01-30T04:49:19.526Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firestore.googleapis.com 200
+[debug] [2026-01-30T04:49:19.527Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/finding-facilities-33939-fe052/services/firestore.googleapis.com [omitted]
+[debug] [2026-01-30T04:49:20.493Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/finding-facilities-33939-fe052/billingInfo 200
+[debug] [2026-01-30T04:49:20.495Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/finding-facilities-33939-fe052/billingInfo {"name":"projects/finding-facilities-33939-fe052/billingInfo","projectId":"finding-facilities-33939-fe052","billingAccountName":"","billingEnabled":false}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-01-30T04:49:20.498Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-01-30T04:49:20.498Z] > authorizing via signed-in user (junha0604@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-01-30T04:49:20.531Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-01-30T04:49:20.531Z] > authorizing via signed-in user (junha0604@gmail.com)
+[debug] [2026-01-30T04:49:20.532Z] No OAuth tokens found
+[debug] [2026-01-30T04:49:20.532Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/finding-facilities-33939-fe052/billingInfo [none]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-01-30T04:49:20.540Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-01-30T04:49:20.540Z] > authorizing via signed-in user (junha0604@gmail.com)
+[debug] [2026-01-30T04:49:20.541Z] No OAuth tokens found
+[debug] [2026-01-30T04:49:20.541Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/finding-facilities-33939-fe052/billingInfo [none]
+[debug] [2026-01-30T04:49:21.585Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/finding-facilities-33939-fe052/billingInfo 200
+[debug] [2026-01-30T04:49:21.586Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/finding-facilities-33939-fe052/billingInfo {"name":"projects/finding-facilities-33939-fe052/billingInfo","projectId":"finding-facilities-33939-fe052","billingAccountName":"","billingEnabled":false}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-01-30T04:49:21.590Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-01-30T04:49:21.596Z] > authorizing via signed-in user (junha0604@gmail.com)
+[debug] [2026-01-30T04:49:21.609Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/finding-facilities-33939-fe052/billingInfo 200
+[debug] [2026-01-30T04:49:21.609Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/finding-facilities-33939-fe052/billingInfo {"name":"projects/finding-facilities-33939-fe052/billingInfo","projectId":"finding-facilities-33939-fe052","billingAccountName":"","billingEnabled":false}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-01-30T04:49:21.612Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-01-30T04:49:21.612Z] > authorizing via signed-in user (junha0604@gmail.com)
