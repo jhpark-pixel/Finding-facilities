@@ -102,21 +102,141 @@ const data = {
         description: "뛰어난 접근성과 편리한 생활 인프라를 자랑하는 곳입니다. 주변에 대형 병원, 쇼핑몰, 문화 시설이 밀집해 있어 활동적인 부모님께 안성맞춤입니다. 다양한 동호회와 커뮤니티 활동을 통해 다른 입주민들과 즐거운 교류를 할 수 있습니다.",
         image: "https://i.postimg.cc/0NN8pRzZ/oegwan-1(daepyo).jpg",
         link: "https://www.caredoc.kr/facility/%EC%9C%84%EB%A1%80%EC%8B%AC%ED%8F%AC%EB%8B%88%EC%95%84-SVT-144e2249d1?facilityType=SILVER_TOWN&isRouter=true"
+      },
+      {
+        name: "더클래식500 (서울 광진)",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "서울시니어스 강남타워",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "서울시니어스 가양타워",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "서울시니어스 강서타워",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "서울시니어스 서울타워",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "더시그넘하우스(강남)",
+        description: "아름다운 자연에 둘러싸여 맑은 공기와 평화로운 생활을 누릴 수 있는 곳입니다. 텃밭을 가꾸고, 산책로를 거닐며 전원생활의 여유를 만끽할 수 있습니다. 자연 친화적인 식단과 건강 관리 프로그램으로 건강한 노후를 보낼 수 있습니다.",
+        image: "https://i.postimg.cc/nhJr9PKS/oegwan-1(daepyo).png",
+        link: "https://www.caredoc.kr/facility/%EB%8D%94%EC%8B%9C%EA%B7%B8%EB%84%98%ED%95%98%EC%9A%B0%EC%8A%A4%EA%B0%95%EB%82%A8-SVT-1553710a93?facilityType=SILVER_TOWN&isRouter=true"
+      },
+      {
+        name: "노블레스타워 (서울 성북)",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "하이원빌리지 (서울 용산)",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "라티브(오시리아) (부산)",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
       }
     ],
     nature: [
-        {
-            name: "더시그넘하우스(강남)",
-            description: "아름다운 자연에 둘러싸여 맑은 공기와 평화로운 생활을 누릴 수 있는 곳입니다. 텃밭을 가꾸고, 산책로를 거닐며 전원생활의 여유를 만끽할 수 있습니다. 자연 친화적인 식단과 건강 관리 프로그램으로 건강한 노후를 보낼 수 있습니다.",
-            image: "https://i.postimg.cc/nhJr9PKS/oegwan-1(daepyo).png",
-            link: "https://www.caredoc.kr/facility/%EB%8D%94%EC%8B%9C%EA%B7%B8%EB%84%98%ED%95%98%EC%9A%B0%EC%8A%A4%EA%B0%95%EB%82%A8-SVT-1553710a93?facilityType=SILVER_TOWN&isRouter=true"
-        },
         {
             name: "노블파인스",
             description: "아름다운 자연에 둘러싸여 맑은 공기와 평화로운 생활을 누릴 수 있는 곳입니다. 텃밭을 가꾸고, 산책로를 거닐며 전원생활의 여유를 만끽할 수 있습니다. 자연 친화적인 식단과 건강 관리 프로그램으로 건강한 노후를 보낼 수 있습니다.",
             image: "https://i.postimg.cc/mk1fmT4m/oegwan-1(daepyo).png",
             link: "https://www.caredoc.kr/facility/%EB%85%B8%EB%B8%94%ED%8C%8C%EC%9D%B8%EC%8A%A4-SVT-81f663e9a3?facilityType=SILVER_TOWN&isRouter=true"
-        }
+        },
+      {
+        name: "케어닥케어홈 배곧점 1호점 (경기 시흥)",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "케어닥케어홈 송추점 (경기 양주)",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "케어닥케어홈 용인점 (경기 용인)",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "삼성노블카운티 (ILU, 용인)",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "서울시니어스 분당타워 (성남)",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "더시그넘하우스(청라) (인천)",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "백운호수 푸르지오 숲속의 아침 1단지 (의왕)",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "백운호수 푸르지오 숲속의 아침 2단지 (의왕)",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "유당실버타운 (수원)",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "마리스텔라 (인천)",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "청심빌리지 (가평)",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      },
+      {
+        name: "사이언스빌리지(대전)",
+        description: "설명이 필요합니다.",
+        image: "https://via.placeholder.com/300",
+        link: "#"
+      }
     ],
     luxury: [
         {
@@ -138,13 +258,17 @@ const data = {
 const startScreen = document.getElementById('start-screen');
 const questionScreen = document.getElementById('question-screen');
 const resultScreen = document.getElementById('result-screen');
+const allFacilitiesScreen = document.getElementById('all-facilities-screen');
 const startBtn = document.getElementById('start-btn');
 const questionEl = document.getElementById('question');
 const optionsEl = document.getElementById('options');
 const progressBar = document.getElementById('progress-bar');
 const resultEl = document.getElementById('result');
+const allFacilitiesListEl = document.getElementById('all-facilities-list');
 const darkModeToggle = document.getElementById('dark-mode-toggle');
 const restartBtn = document.getElementById('restart-btn');
+const viewAllBtn = document.getElementById('view-all-btn');
+const backToResultBtn = document.getElementById('back-to-result-btn');
 
 let currentQuestionIndex = 0;
 const scores = {
@@ -160,6 +284,7 @@ function startQuiz() {
   scores.luxury = 0;
   startScreen.classList.add('hidden');
   resultScreen.classList.add('hidden');
+  allFacilitiesScreen.classList.add('hidden');
   questionScreen.classList.remove('hidden');
   showQuestion();
 }
@@ -197,33 +322,57 @@ function updateProgressBar() {
 }
 
 function showResult() {
-    questionScreen.classList.add('hidden');
-    resultScreen.classList.remove('hidden');
-  
-    let resultType = 'urban';
-    if (scores.nature > scores.urban && scores.nature > scores.luxury) {
-      resultType = 'nature';
-    } else if (scores.luxury > scores.urban && scores.luxury > scores.nature) {
-      resultType = 'luxury';
-    }
-  
-    const resultData = data.results[resultType];
-    resultEl.innerHTML = `
-      <h3>당신에게 추천하는 실버타운</h3>
-    `;
-  
-    resultData.forEach(result => {
-      resultEl.innerHTML += `
-        <div class="result-item">
-          <a href="${result.link}" target="_blank">
-            <img src="${result.image}" alt="${result.name}" class="result-image">
-            <h4>${result.name}</h4>
-          </a>
-          <p>${result.description}</p>
-        </div>
-      `;
-    });
+  questionScreen.classList.add('hidden');
+  resultScreen.classList.remove('hidden');
+
+  const sortedScores = Object.entries(scores).sort(([, a], [, b]) => b - a);
+
+  resultEl.innerHTML = '';
+
+  if (sortedScores.length === 0 || sortedScores[0][1] === 0) {
+    resultEl.innerHTML = '<p>추천할 만한 시설을 찾지 못했습니다. 다시 시도해보세요!</p>';
+    return;
   }
+  
+  resultEl.innerHTML = `<h3>당신에게 추천하는 실버타운</h3>`;
+
+  const topCategory = sortedScores[0][0];
+  const topResults = data.results[topCategory].slice(0, 3);
+
+  topResults.forEach(resultData => {
+    if (resultData) {
+      const resultItem = document.createElement('div');
+      resultItem.classList.add('result-item');
+      resultItem.innerHTML = `
+        <a href="${resultData.link}" target="_blank">
+          <img src="${resultData.image}" alt="${resultData.name}" class="result-image">
+          <h4>${resultData.name}</h4>
+        </a>
+        <p>${resultData.description}</p>
+      `;
+      resultEl.appendChild(resultItem);
+    }
+  });
+}
+
+function showAllFacilities() {
+    resultScreen.classList.add('hidden');
+    allFacilitiesScreen.classList.remove('hidden');
+    allFacilitiesListEl.innerHTML = '';
+
+    Object.values(data.results).flat().forEach(resultData => {
+        const resultItem = document.createElement('div');
+        resultItem.classList.add('result-item');
+        resultItem.innerHTML = `
+            <a href="${resultData.link}" target="_blank">
+                <img src="${resultData.image}" alt="${resultData.name}" class="result-image">
+                <h4>${resultData.name}</h4>
+            </a>
+            <p>${resultData.description}</p>
+        `;
+        allFacilitiesListEl.appendChild(resultItem);
+    });
+}
 
 function toggleDarkMode() {
   document.body.classList.toggle('dark-mode');
@@ -249,8 +398,15 @@ function loadTheme() {
 startBtn.addEventListener('click', startQuiz);
 restartBtn.addEventListener('click', () => {
     resultScreen.classList.add('hidden');
+    allFacilitiesScreen.classList.add('hidden');
     startScreen.classList.remove('hidden');
 });
 darkModeToggle.addEventListener('click', toggleDarkMode);
+viewAllBtn.addEventListener('click', showAllFacilities);
+backToResultBtn.addEventListener('click', () => {
+    allFacilitiesScreen.classList.add('hidden');
+    resultScreen.classList.remove('hidden');
+});
+
 
 loadTheme();
