@@ -1,54 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finding Facilities</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Finding Facilities</title>
+  <link type="text/css" rel="stylesheet" href="/style.css" />
 </head>
 <body>
-    <div class="header">
-        <button id="dark-mode-toggle">🌙</button>
-    </div>
-    
-    <div class="container">
-        <!-- Start Screen -->
-        <div id="start-screen">
-            <h1>나(혹은 부모님)에게 어울리는 실버타운을 찾아보세요!</h1>
-            <p>몇가지 문항에 답을 하면 실버타운을 추천해드립니다.</p>
-            <button id="start-btn">시작하기</button>
-        </div>
+  <h1>Welcome to Finding Facilities</h1>
+  <p>Leave a comment below!</p>
 
-        <!-- Question Screen -->
-        <div id="question-screen" class="hidden">
-            <div id="progress-bar-container">
-                <div id="progress-bar"></div>
-            </div>
-            <h2 id="question"></h2>
-            <div id="options-container" class="options-container"></div>
-        </div>
+  <div id="disqus_thread"></div>
+  <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://finding-facilities.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-        <!-- Result Screen -->
-        <div id="result-screen" class="hidden">
-            <h3>추천 시설</h3>
-            <div id="result-items-container">
-                <!-- Facility cards will be injected here -->
-            </div>
-            <p>사진을 클릭하면 자세한 정보를 볼 수 있습니다.</p>
-            <button id="restart-btn">다시 시작하기</button>
-            <button id="view-all-btn">모든 시설 보기</button>
-        </div>
-
-        <!-- All Facilities Screen -->
-        <div id="all-facilities-screen" class="hidden">
-            <h2>모든 시설</h2>
-            <div id="all-facilities-grid">
-                <!-- All facility regions and cards will be injected here -->
-            </div>
-            <button id="back-to-result-btn">결과 화면으로 돌아가기</button>
-        </div>
-    </div>
-
-    <script src="main.js"></script>
 </body>
 </html>
