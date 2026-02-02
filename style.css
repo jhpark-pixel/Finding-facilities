@@ -78,7 +78,7 @@ body {
     margin-bottom: 30px;
 }
 
-#start-btn, #restart-btn, #view-all-btn, #back-to-result-btn {
+#start-btn, #restart-btn, #view-all-btn, #back-to-result-btn, .inquiry-register-btn {
   background-color: var(--primary-color);
   color: white;
   border: none;
@@ -91,7 +91,7 @@ body {
   margin-top: 10px;
 }
 
-#start-btn:hover, #restart-btn:hover, #view-all-btn:hover, #back-to-result-btn:hover {
+#start-btn:hover, #restart-btn:hover, #view-all-btn:hover, #back-to-result-btn:hover, .inquiry-register-btn:hover {
   background-color: #357abd;
 }
 
