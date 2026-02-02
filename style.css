@@ -21,12 +21,11 @@ body.dark-mode {
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
-  display: block;
-  /* justify-content: center; */
-  /* align-items: center; */
-  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   margin: 0;
-  padding-top: 60px; /* To account for the fixed header */
   background-size: cover;
   background-position: center;
   color: var(--text-color);
@@ -36,6 +35,8 @@ body {
 .container {
   width: 90%;
   max-width: 1200px;
+  height: 90%;
+  max-height: 90vh;
   text-align: center;
   padding: 20px;
   background-color: var(--container-bg);
@@ -44,13 +45,11 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  /* margin-top: 60px; Removed */
-  overflow-y: auto;
-  /* max-height: calc(100vh - 80px); Removed */
+  overflow-y: auto; /* Allow scrolling within the container */
 }
 
 .header {
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 20px;
   z-index: 2000;
@@ -174,7 +173,7 @@ body.dark-mode .option-btn:hover {
         width: 100%;
         height: 100%;
         border-radius: 0;
-        justify-content: center;
+        justify-content: flex-start;
     }
     #result-items-container {
         grid-template-columns: 1fr;
