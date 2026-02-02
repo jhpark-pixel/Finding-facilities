@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
 :root {
   --primary-color: #4a90e2;
   --secondary-color: #f2f2f2;
@@ -21,11 +28,10 @@ body.dark-mode {
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
   margin: 0;
+  padding-top: 60px; /* Moved from .container */
   background-size: cover;
   background-position: center;
   color: var(--text-color);
@@ -35,8 +41,7 @@ body {
 .container {
   width: 90%;
   max-width: 1200px;
-  /* height: 90%; Removed */
-  /* max-height: 90vh; Removed */
+  min-height: 100dvh; /* Added */
   text-align: center;
   padding: 20px;
   background-color: var(--container-bg);
@@ -45,8 +50,6 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  overflow-y: auto; /* Allow scrolling within the container */
-  padding-top: 60px; /* To account for the fixed header */
 }
 
 .header {
