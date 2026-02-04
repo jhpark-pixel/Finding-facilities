@@ -297,22 +297,23 @@ body.dark-mode .option-btn:hover {
 
 .bottom-banner {
     display: block;
-    width: 100%;
+    max-width: 500px; /* Limit width to make it a card */
+    margin: 20px auto; /* Center it and add vertical spacing */
     background-color: var(--banner-bg-color);
     color: white;
     text-align: center;
-    padding: 20px 0; /* Increased padding */
+    padding: 20px; /* Adjusted padding for card look */
     font-size: 1.5em; /* Larger font */
     text-decoration: none;
-    margin-top: 30px; /* More margin */
     border-radius: var(--border-radius);
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.2s; /* Added transform for hover effect */
     font-weight: 700; /* Bolder text */
     box-shadow: 0 4px 10px var(--shadow-color); /* Added shadow for pop-out effect */
 }
 
 .bottom-banner:hover {
     background-color: #5d35a1; /* Darker purple on hover */
+    transform: translateY(-5px); /* Slight lift on hover */
 }
 
 .bottom-banner p {
@@ -337,8 +338,9 @@ body.dark-mode .option-btn:hover {
         margin-right: auto;
     }
     .bottom-banner {
+      max-width: 90%; /* Adjust max-width for mobile */
       font-size: 1.2em; /* Adjust font size for mobile */
-      padding: 15px 0;
+      padding: 15px;
     }
 }
 
