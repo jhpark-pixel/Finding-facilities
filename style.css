@@ -8,6 +8,8 @@
   --container-bg: rgba(255, 255, 255, 0.9);
   --border-radius: 8px;
   --shadow-color: rgba(0,0,0,0.1);
+  --inquiry-btn-color: #28a745; /* Green for inquiry button */
+  --banner-bg-color: #6f42c1; /* Purple for banner */
 }
 
 body.dark-mode {
@@ -17,6 +19,8 @@ body.dark-mode {
   --background-color: #22272e;
   --container-bg: rgba(45, 51, 59, 0.9);
   --shadow-color: rgba(0,0,0,0.4);
+  --inquiry-btn-color: #218838; /* Darker green for dark mode */
+  --banner-bg-color: #5d35a1; /* Darker purple for dark mode */
 }
 
 body {
@@ -71,7 +75,7 @@ body {
     margin-bottom: 30px;
 }
 
-#start-btn, #restart-btn, #view-all-btn, #back-to-result-btn, .inquiry-register-btn {
+#start-btn, #view-all-btn, #back-to-result-btn {
   background-color: var(--primary-color);
   color: white;
   border: none;
@@ -84,15 +88,41 @@ body {
   margin-top: 10px;
 }
 
-#start-btn:hover, #restart-btn:hover, #view-all-btn:hover, #back-to-result-btn:hover, .inquiry-register-btn:hover {
+.inquiry-register-btn {
+  background-color: var(--inquiry-btn-color);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#start-btn:hover, #view-all-btn:hover, #back-to-result-btn:hover {
   background-color: #357abd;
 }
 
-#restart-btn, #back-to-result-btn {
-    background-color: #6c757d;
+.inquiry-register-btn:hover {
+  background-color: #218838; /* Darker green on hover */
 }
 
-#restart-btn:hover, #back-to-result-btn:hover {
+#restart-btn {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#restart-btn:hover {
     background-color: #5a6268;
 }
 
@@ -260,19 +290,21 @@ body.dark-mode .option-btn:hover {
 .bottom-banner {
     display: block;
     width: 100%;
-    background-color: var(--primary-color);
+    background-color: var(--banner-bg-color);
     color: white;
     text-align: center;
-    padding: 15px 0;
-    font-size: 1.2em;
+    padding: 20px 0; /* Increased padding */
+    font-size: 1.5em; /* Larger font */
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 30px; /* More margin */
     border-radius: var(--border-radius);
     transition: background-color 0.3s;
+    font-weight: 700; /* Bolder text */
+    box-shadow: 0 4px 10px var(--shadow-color); /* Added shadow for pop-out effect */
 }
 
 .bottom-banner:hover {
-    background-color: #357abd;
+    background-color: #5d35a1; /* Darker purple on hover */
 }
 
 .bottom-banner p {
@@ -295,6 +327,10 @@ body.dark-mode .option-btn:hover {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+    }
+    .bottom-banner {
+      font-size: 1.2em; /* Adjust font size for mobile */
+      padding: 15px 0;
     }
 }
 
