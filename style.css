@@ -287,6 +287,14 @@ body.dark-mode .option-btn:hover {
     margin: 40px auto 20px auto;
 }
 
+#result-screen h4 {
+    margin-top: 30px; /* Space above title */
+    margin-bottom: 15px; /* Space below title */
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 1.5em;
+}
+
 .bottom-banner {
     display: block;
     width: 100%;
