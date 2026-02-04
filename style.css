@@ -257,6 +257,31 @@ body.dark-mode .option-btn:hover {
     margin: 40px auto 20px auto;
 }
 
+.bottom-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.2em;
+    text-decoration: none;
+    z-index: 1000;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+}
+
+.bottom-banner:hover {
+    background-color: #357abd;
+}
+
+.bottom-banner p {
+    margin: 0;
+}
+
+
 @media (max-width: 768px) {
     .container {
         width: 100%;
@@ -274,3 +299,4 @@ body.dark-mode .option-btn:hover {
         margin-right: auto;
     }
 }
+
